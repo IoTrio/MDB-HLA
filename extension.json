@@ -1,0 +1,13 @@
+{
+  "name": "MDB-HLA - Multi-Drop-Bus High-Level Analyzer",
+  "apiVersion": "1.0.0",
+  "author": "Amir El Sewisy (IoTrio GmbH)",
+  "version": "0.5.0",
+  "description": "High-Level Analyzer for MDB (Multi-Drop-Bus) based on 9-bit UART packets used by vending machine controllers and peripherals.",
+  "extensions": {
+    "MDB-HLA": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
